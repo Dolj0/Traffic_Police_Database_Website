@@ -1,0 +1,227 @@
+
+/*Global CSS Settings*/
+*{
+  font: sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  text-align: left; 
+  /* hex plaette (#023E8A) (#0096C7) (#48CAE4) (#ADE8F4) (#CAF0F8) */
+}
+
+body, html {
+  height: 100%;
+}
+
+/*Header css*/
+.banner{
+  font: Helvetica;
+  font-weight:bold;
+  font-size: 125%;
+  background-color: #48CAE4;
+  color: rgb(0, 0, 0);
+  border-radius: 25px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  text-align: center; 
+  width: 100%;
+  text-align: center;
+  outline: none;
+}
+
+/*login background css*/
+/*Royalty Free Stock Image Road2.jpg From vectorstock.com
+ https://www.vectorstock.com/royalty-free-vector/highway-road-street-sign-traffic-abstract-symbol-vector-23656259
+*/
+.bg {
+  background-image: url("Road2.jpg");
+  height:100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.login {
+  position: fixed;
+  right:30%;
+  width: 40%;
+  text-align: center;
+  top: 80%;
+}
+
+/*css for website wide blue drop down forms*/
+/*Adapted from W3 Schools https://www.w3schools.com/howto/howto_js_collapsible.asp*/
+.collapsible {
+    background-color: #ADE8F4;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    margin-left: 5%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+
+  .collapsible:after{
+    content: '\02795';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .collapsible.extra:after{
+    content: '\02796';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), 
+  and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #0096C7;
+  }
+
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    border-radius: 25px;
+    display: none;
+    overflow: hidden;
+    background-color: #CAF0F8;
+    padding: 1%;
+    width: 88%;
+    margin-left: 5%;
+  }
+
+  /* content div for editing page */
+  .addcontent {
+    border-radius: 25px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #CAF0F8;
+    padding: 1%;
+    width: 88%;
+    margin-left: 5%;
+  }
+
+  /* Admin Actions CSS, same as the above collapsible but with new name and colour
+  https://www.w3schools.com/howto/howto_js_collapsible.asp */
+  .admincollapsible {
+    background-color: #ffdaca;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    margin-left: 5%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+
+  .admincollapsible:after{
+    content: '\02795';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .admincollapsible.extra:after{
+    content: '\02796';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+
+  
+  /* Add a background color to the button if it is clicked on 
+  (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .admincollapsible:hover {
+    background-color: #ff857a;
+  }
+
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .admincontent {
+    border-radius: 25px;
+    display: none;
+    overflow: hidden;
+    background-color: #FFDACA;
+    padding: 1%;
+    width: 88%;
+    margin-left: 5%;
+  }
+
+  .login .content{
+    padding: 10px; 
+  }
+
+
+  .widthcontrol {
+    width: 10%;
+  }
+
+  /* The below formats the output tables,
+  adapted from https://stackoverflow.com/questions/4932181/rounded-table-corners-css-only/4932321 */
+
+  table {
+    border-collapse:separate;
+    background-color: #48CAE4;
+    border:solid #023E8A 1px;
+    border-radius:6px;
+    width: 90%;
+    margin-left: 5%;
+
+  }
+
+  td, th {
+    border-left:solid #023E8A 1px;
+    border-top:solid #023E8A 1px;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #0096C7;
+    border-top: none;
+  }
+
+  td:first-child, th:first-child {
+      border-left: none;
+  }
+
+  tr:nth-child(even) {
+    background-color: #CAF0F8;
+  }
+
+  .logincontent {
+    position: fixed;
+    border-radius: 25px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #48CAE4;
+    padding: 1%;
+    width: 88%;
+    margin-left: 5%;
+    text-align: center;
+  }
+
+  /* Defines the Font size of the login page title */  
+  h{
+    font: sans-serif;
+    font-size: 200%;
+    font-weight: 900;
+    color: #003366;
+  }
+
