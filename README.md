@@ -1,5 +1,6 @@
 # Traffic_Police_Database_Website
 This is a Simple PHP and MySQL website made for one of my university courseworks.
+</br>
 Poor example image quality due to screen shotting from PDF.
 
 ## Example of login page 
